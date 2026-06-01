@@ -1,0 +1,9 @@
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+
+app:
+  jwt:
+    secret: test-secret-test-secret-test-secret-test
+    expiration-hours: 24
